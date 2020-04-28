@@ -1,0 +1,11 @@
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\bin\Debug\netcoreapp3.0\xadrez-console.exe
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\bin\Debug\netcoreapp3.0\xadrez-console.deps.json
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\bin\Debug\netcoreapp3.0\xadrez-console.runtimeconfig.json
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\bin\Debug\netcoreapp3.0\xadrez-console.runtimeconfig.dev.json
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\bin\Debug\netcoreapp3.0\xadrez-console.dll
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\bin\Debug\netcoreapp3.0\xadrez-console.pdb
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\obj\Debug\netcoreapp3.0\xadrez-console.csprojAssemblyReference.cache
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\obj\Debug\netcoreapp3.0\xadrez-console.AssemblyInfoInputs.cache
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\obj\Debug\netcoreapp3.0\xadrez-console.AssemblyInfo.cs
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\obj\Debug\netcoreapp3.0\xadrez-console.dll
+E:\CURSO C#\Projeto Jogo de Xadrez\Meu projeto\xadrez-console\xadrez-console\obj\Debug\netcoreapp3.0\xadrez-console.pdb

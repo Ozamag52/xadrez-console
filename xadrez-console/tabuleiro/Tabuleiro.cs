@@ -1,5 +1,5 @@
-﻿
-
+﻿using System;
+using xadretabuleiro;
 namespace tabuleiro
 {
     class Tabuleiro
@@ -18,15 +18,53 @@ namespace tabuleiro
 
         public Peca peca(int linha, int coluna) // Encapsulamento do atributo Matriz de Peças com a função de get 
         {
-
             return pecas[linha, coluna];
+        }
+
+        public Peca peca(Posicao pos)
+        {
+            return pecas[pos.linha, pos.coluna];
+        }
+
+        public bool existePeca(Posicao pos)
+        {
+            validarPosicao(pos);
+            return peca(pos) != null;
         }
 
         public void colocarPeca(Peca p, Posicao pos) // Função responsavel por adicionar a matriz de peças uma peça 
         {
-            pecas[pos.linha, pos.coluna] = p;
-            p.posicao = pos;
+            if (existePeca(pos))
+            {
+                throw new TabuleiroException("Já existe uma peça nessa posição!");
 
+            }
+
+            else
+            {
+                pecas[pos.linha, pos.coluna] = p;
+                p.posicao = pos;
+            }
+        }
+
+        public bool posicaoValida(Posicao pos) // Metodo responsavel por verificar se a posição da peça entra dentro da dimensao do tabuleiro
+        {
+            if (pos.linha >= linhas || pos.linha < 0 || pos.coluna >= colunas || pos.coluna < 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public void validarPosicao(Posicao pos) // Metodo responsavel por validar uma posicao e caso invalide lancar uma excecao 
+        {
+            if (!posicaoValida(pos))
+            {
+                throw new TabuleiroException("Posição inválida!");
+            }
         }
     }
 }

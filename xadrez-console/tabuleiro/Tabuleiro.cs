@@ -47,6 +47,21 @@ namespace tabuleiro
             }
         }
 
+        public Peca retirarPeca(Posicao pos)
+        {
+            if(peca(pos) == null)
+            {
+                return null;
+            }
+            else
+            {
+                Peca aux = peca(pos);
+                aux.posicao = null;
+                pecas[pos.linha, pos.coluna] = null;
+                return aux;
+            }
+        }
+
         public bool posicaoValida(Posicao pos) // Metodo responsavel por verificar se a posição da peça entra dentro da dimensao do tabuleiro
         {
             if (pos.linha >= linhas || pos.linha < 0 || pos.coluna >= colunas || pos.coluna < 0)
